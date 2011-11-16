@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollview_quick_settings"
+	style="@style/width_height_fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		style="@style/width_height_fill_parent" android:paddingLeft="18px"
+		android:paddingRight="18px" android:paddingBottom="10px"
+		android:orientation="vertical">
+		<RadioGroup style="@style/width_fill_parent">
+			<RadioButton android:id="@+id/radiobutton_ringer_mode_normal"
+				android:text="@string/normal" style="@style/t1" />
+			<RadioButton android:id="@+id/radiobutton_ringer_mode_vibrate"
+				android:text="@string/vibrate" style="@style/t1" />
+			<RadioButton android:id="@+id/radiobutton_ringer_mode_silent"
+				android:text="@string/silent" style="@style/t1" />
+		</RadioGroup>
+		<TextView android:text="@string/ringer_volume" style="@style/t1_center" />
+		<SeekBar android:id="@+id/seekbar_ringer_volume" style="@style/width_fill_parent_padding2" />
+		<TextView android:text="@string/notification_volume" style="@style/t1_center" />
+		<SeekBar android:id="@+id/seekbar_notification_volume" style="@style/width_fill_parent_padding2" />
+		<TextView android:text="@string/system_volume" style="@style/t1_center" />
+		<SeekBar android:id="@+id/seekbar_system_volume" style="@style/width_fill_parent_padding2" />
+		<TextView android:text="@string/alarm_volume" style="@style/t1_center" />
+		<SeekBar android:id="@+id/seekbar_alarm_volume" style="@style/width_fill_parent_padding2" />
+		<TextView android:text="@string/media_volume" style="@style/t1_center" />
+		<SeekBar android:id="@+id/seekbar_media_volume" style="@style/width_fill_parent_padding2" />
+		<TextView android:text="@string/voice_call_volume" style="@style/t1_center" />
+		<SeekBar android:id="@+id/seekbar_voice_call_volume" style="@style/width_fill_parent_padding2" />
+	</LinearLayout>
+</ScrollView>

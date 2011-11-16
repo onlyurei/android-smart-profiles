@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/width_height_fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:id="@+id/linearlayout_active_profile"
+		style="@style/width_height_fill_parent" android:orientation="vertical"
+		xmlns:android="http://schemas.android.com/apk/res/android">
+		<include layout="@layout/profile_list" />
+		<Button android:id="@+id/button_start_service" android:text="@string/start_smarter_profiles_service"
+			style="@style/b1" />
+		<Button android:id="@+id/button_stop_service" android:text="@string/stop_smarter_profiles_service"
+			style="@style/b1" />
+		<Button android:id="@+id/button_lock_profile"
+			android:layout_marginTop="18px" android:text="@string/lock_current_profile"
+			style="@style/b1" />
+		<Button android:id="@+id/button_unlock_profile" android:text="@string/unlock_current_profile"
+			style="@style/b1" />
+		<Button android:id="@+id/button_quick_settings"
+			android:layout_marginTop="18px" android:text="@string/quick_volume_settings"
+			style="@style/b1" />
+	</LinearLayout>
+</ScrollView>

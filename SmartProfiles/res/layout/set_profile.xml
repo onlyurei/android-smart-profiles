@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/width_height_fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:id="@+id/linearlayout_new_profile"
+		style="@style/width_height_fill_parent" android:orientation="vertical"
+		xmlns:android="http://schemas.android.com/apk/res/android">
+		<TextView android:text="@string/profile_name" style="@style/h1" />
+		<EditText android:id="@+id/edittext_profile_name"
+			android:layout_marginTop="15px" android:inputType="text"
+			style="@style/width_fill_parent" />
+		<TextView android:text="@string/where_should_it_be_active"
+			style="@style/h1" />
+		<TextView android:text="@string/within_the_range_of_the_wifi_networks"
+			style="@style/h2" />
+		<LinearLayout style="@style/width_fill_parent"
+			android:weightSum="1.0" android:orientation="horizontal"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+			<Button android:id="@+id/button_scan_wifi" android:text="@string/scan_now"
+				android:layout_weight="0.5" style="@style/b1" />
+			<Button android:id="@+id/button_select_known_wifi"
+				android:text="@string/select_known" android:layout_weight="0.5"
+				style="@style/b1" />
+		</LinearLayout>
+		<TextView android:id="@+id/textview_selected_wifi_networks"
+			style="@style/t1_center" />
+		<TextView android:id="@+id/textview_multi_wifi_alert"
+			android:text="@string/all_of_the_wifi_must_be_in_range" style="@style/h3_no_background" />
+		<Button android:id="@+id/button_clear_wifi_networks"
+			android:text="@string/clear" style="@style/b2" />
+		<TextView android:text="@string/or_enter_ssid" style="@style/h2_no_background" />
+		<TextView android:text="@string/separate_by_comma" style="@style/h3_no_background" />
+		<Button android:id="@+id/button_add_ssid" android:text="@string/add"
+			style="@style/b1" />
+		<EditText android:id="@+id/edittext_ssid" android:inputType="text"
+			style="@style/width_fill_parent" />
+		<TextView android:text="@string/when_should_it_be_active"
+			style="@style/h1" />
+		<TextView android:text="@string/days_of_week" style="@style/h2" />
+		<CheckBox android:id="@+id/checkbox_sunday" android:text="@string/sunday"
+			style="@style/t1" />
+		<CheckBox android:id="@+id/checkbox_monday" android:text="@string/monday"
+			style="@style/t1" />
+		<CheckBox android:id="@+id/checkbox_tuesday" android:text="@string/tuesday"
+			style="@style/t1" />
+		<CheckBox android:id="@+id/checkbox_wednesday" android:text="@string/wednesday"
+			style="@style/t1" />
+		<CheckBox android:id="@+id/checkbox_thursday" android:text="@string/thursday"
+			style="@style/t1" />
+		<CheckBox android:id="@+id/checkbox_friday" android:text="@string/friday"
+			style="@style/t1" />
+		<CheckBox android:id="@+id/checkbox_saturday" android:text="@string/saturday"
+			style="@style/t1" />
+		<TextView android:text="@string/start_time_of_day" style="@style/h2" />
+		<TimePicker android:id="@+id/timepicker_start_time" style="@style/width_fill_parent" />
+		<TextView android:text="@string/end_time_of_day" style="@style/h2" />
+		<TimePicker android:id="@+id/timepicker_end_time" style="@style/width_fill_parent" />
+		<TextView android:text="@string/settings" style="@style/h1" />
+		<TextView android:text="@string/ringer_mode" style="@style/h2" />
+		<RadioGroup style="@style/width_fill_parent">
+			<RadioButton android:id="@+id/radiobutton_ringer_mode_normal"
+				android:text="@string/normal" style="@style/t1" />
+			<RadioButton android:id="@+id/radiobutton_ringer_mode_vibrate"
+				android:text="@string/vibrate" style="@style/t1" />
+			<RadioButton android:id="@+id/radiobutton_ringer_mode_silent"
+				android:text="@string/silent" style="@style/t1" />
+		</RadioGroup>
+		<TextView android:text="@string/ringer_volume" style="@style/h2" />
+		<LinearLayout style="@style/width_fill_parent"
+			android:weightSum="1.0" android:orientation="horizontal"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+			<CheckBox android:id="@+id/checkbox_set_ringer_volume"
+				style="@style/width_height_wrap_content" />
+			<TextView android:id="@+id/textview_set_ringer_volume"
+				style="@style/t1_center" />
+			<SeekBar android:id="@+id/seekbar_ringer_volume" style="@style/width_fill_parent_padding" />
+		</LinearLayout>
+		<TextView android:text="@string/notification_volume" style="@style/h2" />
+		<LinearLayout style="@style/width_fill_parent"
+			android:weightSum="1.0" android:orientation="horizontal"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+			<CheckBox android:id="@+id/checkbox_set_notification_volume"
+				style="@style/width_height_wrap_content" />
+			<TextView android:id="@+id/textview_set_notification_volume"
+				style="@style/t1_center" />
+			<SeekBar android:id="@+id/seekbar_notification_volume" style="@style/width_fill_parent_padding" />
+		</LinearLayout>
+		<TextView android:text="@string/system_volume" style="@style/h2" />
+		<LinearLayout style="@style/width_fill_parent"
+			android:weightSum="1.0" android:orientation="horizontal"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+			<CheckBox android:id="@+id/checkbox_set_system_volume"
+				style="@style/width_height_wrap_content" />
+			<TextView android:id="@+id/textview_set_system_volume"
+				style="@style/t1_center" />
+			<SeekBar android:id="@+id/seekbar_system_volume" style="@style/width_fill_parent_padding" />
+		</LinearLayout>
+		<TextView android:text="@string/alarm_volume" style="@style/h2_no_margin_bottom" />
+		<TextView android:text="@string/could_be_annoying" style="@style/h3" />
+		<LinearLayout style="@style/width_fill_parent"
+			android:weightSum="1.0" android:orientation="horizontal"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+			<CheckBox android:id="@+id/checkbox_set_alarm_volume" style="@style/width_height_wrap_content" />
+			<TextView android:id="@+id/textview_set_alarm_volume" style="@style/t1_center" />
+			<SeekBar android:id="@+id/seekbar_alarm_volume" style="@style/width_fill_parent_padding" />
+		</LinearLayout>
+		<TextView android:text="@string/media_volume" style="@style/h2_no_margin_bottom" />
+		<TextView android:text="@string/could_be_annoying" style="@style/h3" />
+		<LinearLayout style="@style/width_fill_parent"
+			android:weightSum="1.0" android:orientation="horizontal"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+			<CheckBox android:id="@+id/checkbox_set_media_volume" style="@style/width_height_wrap_content" />
+			<TextView android:id="@+id/textview_set_media_volume" style="@style/t1_center" />
+			<SeekBar android:id="@+id/seekbar_media_volume" style="@style/width_fill_parent_padding" />
+		</LinearLayout>
+		<TextView android:text="@string/voice_call_volume" style="@style/h2_no_margin_bottom" />
+		<TextView android:text="@string/could_be_annoying" style="@style/h3" />
+		<LinearLayout style="@style/width_fill_parent"
+			android:weightSum="1.0" android:orientation="horizontal"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+			<CheckBox android:id="@+id/checkbox_set_voice_call_volume"
+				style="@style/width_height_wrap_content" />
+			<TextView android:id="@+id/textview_set_voice_call_volume"
+				style="@style/t1_center" />
+			<SeekBar android:id="@+id/seekbar_voice_call_volume" style="@style/width_fill_parent_padding" />
+		</LinearLayout>
+		<Button android:id="@+id/button_summary" android:text="@string/profile_summary"
+			style="@style/b1" android:layout_marginTop="30px" />
+		<LinearLayout style="@style/width_fill_parent"
+			android:layout_marginTop="30px" android:layout_marginBottom="15px"
+			android:weightSum="1.0" android:orientation="horizontal"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+			<Button android:id="@+id/button_save_profile" android:text="@string/save_profile"
+				android:layout_weight="0.25" style="@style/b1" />
+			<Button android:id="@+id/button_cancel" android:text="@string/cancel"
+				android:layout_weight="0.75" style="@style/b1" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

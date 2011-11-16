@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Smarter Profiles</string>
+	<string name="smarter_profile_service_started">Smarter Profiles service started</string>
+	<string name="error_failed_to_start_smart_profile_service">Failed to start Smarter Profiles service</string>
+	<string name="smarter_profiles_service_is_running">Smarter Profiles service is running</string>
+	<string name="smarter_profiles_service_is_paused">Smarter Profiles service is paused (Wi-Fi is turned off)</string>
+	<string name="smarter_profiles_service_is_not_running">Smarter Profiles service is not running</string>
+	<string name="smarter_profiles_service_is_stopped">Smarter Profiles service is stopped</string>
+	<string name="service_is_not_running">Service is not running</string>
+	<string name="service_is_paused">Service is paused (Wi-Fi is off)</string>
+	<string name="start_smarter_profiles_service">Start Smarter Profiles service</string>
+	<string name="stop_smarter_profiles_service">Stop Smarter Profiles service</string>
+	<string name="quick_volume_settings">Quick volume settings</string>
+	<string name="create_new_profile">Create new profile</string>
+	<string name="wifi_is_off">Wi-Fi is not on</string>
+	<string name="error_failed_to_turn_on_wifi">Failed to turn on Wi-Fi</string>
+	<string name="no_wifi_networks_detected">No Wi-Fi network(s) detected</string>
+	<string name="no_wifi_networks_configured">No Wi-Fi network(s) configured, or Wi-Fi is not on</string>
+	<string name="start_time_cannot_be_after_end_time">Start time cannot be after end time within a day. If you want to create overnight profiles, you can create two profiles with THE SAME RINGER SETTINGS, one for the time span BEFORE MIDNIGHT, and another one for the time span AFTER MIDNIGHT.</string>
+	<string name="end_time_cannot_be_ahead_of_start_time">End time cannot be ahead of start time within a day. If you want to create overnight profiles, you can create two profiles with THE SAME RINGER SETTINGS, one for the time span BEFORE MIDNIGHT, and another one for the time span AFTER MIDNIGHT.</string>
+	<string name="active_profile">Active profile</string>
+	<string name="defined_profiles">Defined profiles</string>
+	<string name="set_profile">Set profile</string>
+	<string name="ok">OK</string>
+	<string name="location">Location</string>
+	<string name="time">Time</string>
+	<string name="profile_name">Profile name</string>
+	<string name="wifi_networks">Wi-Fi network(s)</string>
+	<string name="days_of_week">Day(s) of the week</string>
+	<string name="start_time_of_day">Start time of the day</string>
+	<string name="end_time_of_day">End time of the day</string>
+	<string name="not_specified">\nNot specified (anywhere)\n</string>
+	<string name="select...">Select..</string>
+	<string name="select_known">Select known..</string>
+	<string name="scan_now">Scan now..</string>
+	<string name="select_wifi_networks">Select Wi-Fi network(s)</string>
+	<string name="clear">Clear</string>
+	<string name="searching...">Searching..</string>
+	<string name="scanning...">Scanning..</string>
+	<string name="monday">Monday</string>
+	<string name="tuesday">Tuesday</string>
+	<string name="wednesday">Wednesday</string>
+	<string name="thursday">Thursday</string>
+	<string name="friday">Friday</string>
+	<string name="saturday">Saturday</string>
+	<string name="sunday">Sunday</string>
+	<string name="monday_short">Mo</string>
+	<string name="tuesday_short">Tu</string>
+	<string name="wednesday_short">We</string>
+	<string name="thursday_short">Th</string>
+	<string name="friday_short">Fr</string>
+	<string name="saturday_short">Sa</string>
+	<string name="sunday_short">Su</string>
+	<string name="at_least_one_day_of_week_should_be_selected">At least one day of week should be selected</string>
+	<string name="settings">Settings</string>
+	<string name="sound">Sound</string>
+	<string name="ringer_volume">Ringer volume</string>
+	<string name="ringer_volume_short">R</string>
+	<string name="notification_volume">Notification volume</string>
+	<string name="notification_volume_short">N</string>
+	<string name="system_volume">System volume</string>
+	<string name="system_volume_short">S</string>
+	<string name="alarm_volume">Alarm volume</string>
+	<string name="alarm_volume_short">A</string>
+	<string name="media_volume">Media volume</string>
+	<string name="media_volume_short">M</string>
+	<string name="voice_call_volume">Voice call volume</string>
+	<string name="voice_call_volume_short">V</string>
+	<string name="save_profile">Save profile</string>
+	<string name="cancel">Cancel</string>
+	<string name="check_to_set">Unchanged, check to set</string>
+	<string name="unchanged">Unchanged</string>
+	<string name="normal">Normal</string>
+	<string name="vibrate">Vibrate</string>
+	<string name="silent">Silent</string>
+	<string name="choose_ringer_mode_first">Choose ringer mode first</string>
+	<string name="ringer_mode">Ringer mode</string>
+	<string name="could_be_annoying">(could be annoying)</string>
+	<string name="error_profile_name">\nProfile name: please enter\n</string>
+	<string name="error_ringer_mode">\nRinger mode: please choose\n</string>
+	<string name="error">Error</string>
+	<string name="profile_saved">Profile saved</string>
+	<string name="error_failed_to_scan_wifi">Failed to scan Wi-Fi network(s)\nPlease try again</string>
+	<string name="info">Info</string>
+	<string name="or_enter_ssid">Or enter Wi-Fi network name(s) below</string>
+	<string name="separate_by_comma">separate by comma, don\'t include space if it\'s not in the network name</string>
+	<string name="effective_when">Effective when</string>
+	<string name="add">Add</string>
+	<string name="profile_summary">Profile summary</string>
+	<string name="cap_profile_name">PROFILE NAME</string>
+	<string name="cap_rules">RULES</string>
+	<string name="cap_settings">SETTINGS</string>
+	<string name="this_profile_name_already_exist">This profile name already exists:</string>
+	<string name="this_profile_has_exact_same_rules_as">This profile has exact same triggering rules as:</string>
+	<string name="no_profiles_defined_yet">No profiles defined yet</string>
+	<string name="profile_alread_exists">There is another profile with exact same name and triggering rules as this one</string>
+	<string name="wi_fi">Wi-Fi</string>
+	<string name="unknown">Unknown</string>
+	<string name="no_matching_profile_found">No matching profile found</string>
+	<string name="delete">Delete</string>
+	<string name="intent_action_active_profile_changed">com.intofan.android.intent.action.ACTIVE_PROFILE_CHANGED</string>
+	<string name="pref_start_after_boot_title">Start automatically</string>
+	<string name="pref_start_after_boot_summary">Check to start service automatically on boot</string>
+	<string name="pref_notify_title">Notify active profile</string>
+	<string name="pref_notify_summary">Check to turn on a sticky notification when a profile is active</string>
+	<string name="pref_toast_title">On-screen messages</string>
+	<string name="pref_toast_summary">Check to post on-screen (toast) messages about service status</string>
+	<string name="pref_pause_when_wifi_is_off_title">Pause when Wi-Fi is off</string>
+	<string name="pref_pause_when_wifi_is_off_summary">Check to pause service when Wi-Fi is turned off (service will resume when Wi-Fi is turned on)</string>
+	<string name="pref_stay_awake_title">Stay awake</string>
+	<string name="pref_stay_awake_summary">Check to force phone to stay awake to make sure
+		profile detecting/switching take place on time when screen is off
+		(affects battery
+		life significantly)</string>
+	<string name="pref_use_24_hour_format_title">Use 24 hour</string>
+	<string name="pref_use_24_hour_format_summary">Check to use 24 hour format</string>
+	<string name="pref_check_frequency_title">Detection interval</string>
+	<string name="pref_check_frequency_summary">How often to detect/change profile when Wi-Fi is
+		OFF, or when Wi-Fi is ON and is CONNECTED to a network (affects
+		battery
+		life)</string>
+	<string name="pref_profile_sorting_method_title">Profiles list display order</string>
+	<string name="pref_profile_sorting_method_summary">How to order defined profiles list (changes display
+		order
+		only, does not change profile detection
+		mechanism)</string>
+	<string name="where_should_it_be_active">Where should it be active?</string>
+	<string name="when_should_it_be_active">When should it be active?</string>
+	<string name="ordered_by_profile_priorities">Ordered by profile priorities</string>
+	<string name="ordered_by_profile_names">Ordered by profile names</string>
+	<string name="help">Help</string>
+	<string name="help_title">Smarter Profiles 1.5.6</string>
+	<string name="change_log_content">
+		Version 1.5.6\n\n
+		- App security enhancement.\n\n
+		Version 1.5.5\n\n
+		- Minor bug fixes.\n\n
+		Version 1.5.3\n\n
+		Feature enhancement\n\n
+		- Added the explanation of multi Wi-Fi triggering rule in Set profile screen when more than 1 Wi-Fi networks are specified.\n\n
+		Version 1.5.2\n\n
+		Feature enhancement\n\n
+		- Improved the clarity of some wordings.\n\n
+		- Prefix 0 to single digits in displays of times.\n\n
+		Version 1.5.1\n\n
+		Bug fix\n\n
+		- Fixed the bug that was introduced in 1.5.0 that the option Delete in the context menu functioned as the same as Lock.\n\n
+		Version 1.5.0\n\n
+		Feature enhancement\n\n
+		- Added the option to LOCK/UNLOCK a profile.
+		When a profile is LOCKED, it will ALWAYS be selected whenever the Smarter Profiles service is running, 
+		regardless of its triggering rules (Wi-Fi and time settings) and priority compared to other profiles.\n\n
+		- To LOCK a profile, long press the profile in the Defined profiles list and select Lock, or press the Lock current profile button
+		when there is an active profile. You can only LOCK one profile at one time. To lock another profile, you need to first UNLOCK the 
+		current LOCKED profile.\n\n
+		- Use the same approach to UNLOCK a profile.
+		\n\n
+		Version 1.4.2\n\n
+		Feature enhancement\n
+		- Profile detection will now happen as soon as a profile has been created/updated/deleted, as opposed to delay for a regular detection interval.
+		\n\n
+		Version 1.4.1\n\n
+		Feature enhancement\n
+		- For profiles that have exactly the SAME time settings (e.g. Su Mo Tu We Th Fr Sa, 00:00:00-23:59:59), 
+		and have the SAME number of Wi-Fi SSID(s), when the specified SSIDs are ALL in range, 
+		the profile that has the STRONGEST Wi-Fi signal strength will be selected.\n
+		This will help to alleviate frequent profile switching problem when Wi-Fi signals are intermittent.
+		\n\n
+		Version 1.4.0\n\n
+		Minor localization translations improvements.\n\n
+		Version 1.3.9\n\n
+		Feature enhancement\n
+		- Added Japanese localization (if you find grammar errors, please send them to intofansoft@gmail.com, thank you)\n
+		日本語ローカライズを追加（文法エラーを見つけた場合は、それらをintofansoft@gmail.comに送信してください、ありがとうございます。）\n\n
+		Version 1.3.8\n\n
+		Feature enhancement\n
+		- Added Chinese localization.\n
+		- Changed the sort mechanism of Wi-Fi network(s) in Set profile screen to case-insensitive.\n
+		Bug fix\n
+		- Fixed a bug of Quick volume settings when service is running.\n\n
+		Version 1.3.7\n\n
+		Feature enhancement\n
+		- Refined app icons.\n\n
+		Version 1.3.6\n\n
+		Feature enhancement\n
+		- Quick volume settings is available even when service is running (although some items will not be changeable if controlled by the current active profile).\n\n
+		Version 1.3.5\n\n
+		Feature enhancement\n
+		- Added Quick volume settings function (available when service is not running).\n\n
+		Version 1.3.4\n\n
+		Bug fix\n
+		- Fixed the force close bug when scanning Wi-Fi networks(s) and there is none.\n\n
+		Version 1.3.3\n\n
+		Bug fix\n
+		- Fixed the service stops frequently issue on 2.3.3 devices (due to a bug on 2.3.3 acknowledged by Google).\n\n
+		Version 1.3.2\n\n
+		Feature Enhancement\n
+		- Moved Help content online for faster and easier maintenance (requiring an extra INTERNET permission).\n\n
+		Version 1.3.1\n\n
+		Bug Fix\n
+		- Fixed bugs related to pause the service when Wi-Fi is off\n\n
+		Version 1.3.0\n\n
+		- Added instructions to create overnight profiles in FAQs\n\n
+		Version 1.2.9\n\n
+		Feature Enhancements\n
+		- Grey out profiles when they are not able be selected under certain conditions (e.g. service is not running/Wi-Fi is off).\n
+		- Release
+		partial lock (if set) when service is paused to save battery.\n\n
+		Version 1.2.8\n\n
+		Feature Enhancements\n
+		- Added the option to pause
+		Smarter Profile service when Wi-Fi is turned off.\n
+		- Added the option
+		to turn on/off toast notifications about Smarter Profiles service
+		status.\n\n
+		Please go to Settings to use these features as needed.
+	</string>
+	<string name="change_log">What\'s new in this version</string>
+	<string name="rate_the_app">Rate the app</string>
+	<string name="quick_volume_settings_items_not_available">Some items are not changeable because they are controlled by the current active profile</string>
+	<string name="lock">Lock</string>
+	<string name="locked">LOCKED</string>
+	<string name="unlock">Unlock</string>
+	<string name="lock_current_profile">Lock current profile</string>
+	<string name="unlock_current_profile">Unlock current profile</string>
+	<string name="within_the_range_of_the_wifi_networks">Within the signal range of the following\nWi-Fi network(s)</string>
+	<string name="all_of_the_wifi_must_be_in_range">ALL of the above Wi-Fi network(s) must be in range at the SAME TIME to trigger this profile</string>
+</resources>

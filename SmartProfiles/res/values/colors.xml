@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="transparent">#00000000</color>
+	<color name="white">#FFFFFFFF</color>
+	<color name="grey">#FFE9E9E9</color>
+	<color name="black">#FF000000</color>
+	<color name="safety_vest">#FFC8F526</color>
+	<color name="caribbean">#FF42C0FB</color>
+	<color name="indiglo">#FF05E9FF</color>
+	<color name="gold">#FFFFCF06</color>
+</resources>

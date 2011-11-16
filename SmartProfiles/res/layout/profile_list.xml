@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:id="@+id/linearlayout_defined_profiles_item"
+	style="@style/width_height_fill_parent">
+	<TextView android:id="@+id/textview_defined_profiles_t1"
+		style="@style/list_t1" />
+	<TextView android:id="@+id/textview_defined_profiles_t2"
+		style="@style/list_t2" />
+	<TextView android:id="@+id/textview_defined_profiles_t3"
+		style="@style/list_t2" />
+	<TextView android:id="@+id/textview_defined_profiles_t4"
+		style="@style/list_t2" />
+</LinearLayout>

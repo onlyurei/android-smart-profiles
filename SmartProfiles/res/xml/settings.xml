@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference android:key="startAfterBoot"
+		android:persistent="true" android:title="@string/pref_start_after_boot_title"
+		android:defaultValue="true" android:summary="@string/pref_start_after_boot_summary" />
+	<CheckBoxPreference android:key="notify"
+		android:persistent="true" android:title="@string/pref_notify_title"
+		android:defaultValue="true" android:summary="@string/pref_notify_summary" />
+	<CheckBoxPreference android:key="toast"
+		android:persistent="true" android:title="@string/pref_toast_title"
+		android:defaultValue="true" android:summary="@string/pref_toast_summary" />
+	<CheckBoxPreference android:key="pauseWhenWifiIsOff"
+		android:persistent="true" android:title="@string/pref_pause_when_wifi_is_off_title"
+		android:defaultValue="false" android:summary="@string/pref_pause_when_wifi_is_off_summary" />
+	<CheckBoxPreference android:key="stayAwake"
+		android:persistent="true" android:title="@string/pref_stay_awake_title"
+		android:defaultValue="true" android:summary="@string/pref_stay_awake_summary" />
+	<CheckBoxPreference android:key="is24hour"
+		android:persistent="true" android:title="@string/pref_use_24_hour_format_title"
+		android:defaultValue="false" android:summary="@string/pref_use_24_hour_format_summary" />
+	<ListPreference android:key="checkFrequency"
+		android:persistent="true" android:title="@string/pref_check_frequency_title"
+		android:summary="@string/pref_check_frequency_summary"
+		android:dialogTitle="@string/pref_check_frequency_title"
+		android:defaultValue="60" android:entries="@array/listpreference_check_frequency_entries"
+		android:entryValues="@array/listpreference_check_frequency_values" />
+	<ListPreference android:key="profileListSortingMethod"
+		android:persistent="true" android:title="@string/pref_profile_sorting_method_title"
+		android:summary="@string/pref_profile_sorting_method_summary"
+		android:dialogTitle="@string/pref_profile_sorting_method_title"
+		android:defaultValue="0"
+		android:entries="@array/listpreference_profile_sorting_method_entries"
+		android:entryValues="@array/listpreference_profile_sorting_method_values" />
+</PreferenceScreen>
