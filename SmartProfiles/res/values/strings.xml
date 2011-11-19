@@ -130,84 +130,86 @@
 	<string name="ordered_by_profile_priorities">Ordered by profile priorities</string>
 	<string name="ordered_by_profile_names">Ordered by profile names</string>
 	<string name="help">Help</string>
-	<string name="help_title">Smarter Profiles 1.5.6</string>
+	<string name="help_title">Smarter Profiles 1.5.7</string>
 	<string name="change_log_content">
-		Version 1.5.6\n\n
+	    Version 1.5.7\n
+		- Improved display on high resolution devices.\n\n
+		Version 1.5.6\n
 		- App security enhancement.\n\n
-		Version 1.5.5\n\n
+		Version 1.5.5\n
 		- Minor bug fixes.\n\n
-		Version 1.5.3\n\n
+		Version 1.5.3\n
 		Feature enhancement\n\n
 		- Added the explanation of multi Wi-Fi triggering rule in Set profile screen when more than 1 Wi-Fi networks are specified.\n\n
-		Version 1.5.2\n\n
+		Version 1.5.2\n
 		Feature enhancement\n\n
 		- Improved the clarity of some wordings.\n\n
 		- Prefix 0 to single digits in displays of times.\n\n
-		Version 1.5.1\n\n
-		Bug fix\n\n
+		Version 1.5.1\n
+		Bug fix\n
 		- Fixed the bug that was introduced in 1.5.0 that the option Delete in the context menu functioned as the same as Lock.\n\n
-		Version 1.5.0\n\n
-		Feature enhancement\n\n
+		Version 1.5.0\n
+		Feature enhancement\n
 		- Added the option to LOCK/UNLOCK a profile.
 		When a profile is LOCKED, it will ALWAYS be selected whenever the Smarter Profiles service is running, 
 		regardless of its triggering rules (Wi-Fi and time settings) and priority compared to other profiles.\n\n
 		- To LOCK a profile, long press the profile in the Defined profiles list and select Lock, or press the Lock current profile button
 		when there is an active profile. You can only LOCK one profile at one time. To lock another profile, you need to first UNLOCK the 
-		current LOCKED profile.\n\n
+		current LOCKED profile.\n
 		- Use the same approach to UNLOCK a profile.
 		\n\n
-		Version 1.4.2\n\n
+		Version 1.4.2\n
 		Feature enhancement\n
 		- Profile detection will now happen as soon as a profile has been created/updated/deleted, as opposed to delay for a regular detection interval.
 		\n\n
-		Version 1.4.1\n\n
+		Version 1.4.1\n
 		Feature enhancement\n
 		- For profiles that have exactly the SAME time settings (e.g. Su Mo Tu We Th Fr Sa, 00:00:00-23:59:59), 
 		and have the SAME number of Wi-Fi SSID(s), when the specified SSIDs are ALL in range, 
 		the profile that has the STRONGEST Wi-Fi signal strength will be selected.\n
 		This will help to alleviate frequent profile switching problem when Wi-Fi signals are intermittent.
 		\n\n
-		Version 1.4.0\n\n
+		Version 1.4.0\n
 		Minor localization translations improvements.\n\n
-		Version 1.3.9\n\n
+		Version 1.3.9\n
 		Feature enhancement\n
 		- Added Japanese localization (if you find grammar errors, please send them to intofansoft@gmail.com, thank you)\n
 		日本語ローカライズを追加（文法エラーを見つけた場合は、それらをintofansoft@gmail.comに送信してください、ありがとうございます。）\n\n
-		Version 1.3.8\n\n
+		Version 1.3.8\n
 		Feature enhancement\n
 		- Added Chinese localization.\n
 		- Changed the sort mechanism of Wi-Fi network(s) in Set profile screen to case-insensitive.\n
 		Bug fix\n
 		- Fixed a bug of Quick volume settings when service is running.\n\n
-		Version 1.3.7\n\n
+		Version 1.3.7\n
 		Feature enhancement\n
 		- Refined app icons.\n\n
-		Version 1.3.6\n\n
+		Version 1.3.6\n
 		Feature enhancement\n
 		- Quick volume settings is available even when service is running (although some items will not be changeable if controlled by the current active profile).\n\n
-		Version 1.3.5\n\n
+		Version 1.3.5\n
 		Feature enhancement\n
 		- Added Quick volume settings function (available when service is not running).\n\n
-		Version 1.3.4\n\n
+		Version 1.3.4\n
 		Bug fix\n
 		- Fixed the force close bug when scanning Wi-Fi networks(s) and there is none.\n\n
-		Version 1.3.3\n\n
+		Version 1.3.3\n
 		Bug fix\n
 		- Fixed the service stops frequently issue on 2.3.3 devices (due to a bug on 2.3.3 acknowledged by Google).\n\n
-		Version 1.3.2\n\n
+		Version 1.3.2\n
 		Feature Enhancement\n
 		- Moved Help content online for faster and easier maintenance (requiring an extra INTERNET permission).\n\n
-		Version 1.3.1\n\n
+		Version 1.3.1\n
 		Bug Fix\n
 		- Fixed bugs related to pause the service when Wi-Fi is off\n\n
-		Version 1.3.0\n\n
+		Version 1.3.0\n
 		- Added instructions to create overnight profiles in FAQs\n\n
-		Version 1.2.9\n\n
+		Version 1.2.9\n
 		Feature Enhancements\n
 		- Grey out profiles when they are not able be selected under certain conditions (e.g. service is not running/Wi-Fi is off).\n
 		- Release
 		partial lock (if set) when service is paused to save battery.\n\n
-		Version 1.2.8\n\n
+		Version 1.2.8\n
 		Feature Enhancements\n
 		- Added the option to pause
 		Smarter Profile service when Wi-Fi is turned off.\n
