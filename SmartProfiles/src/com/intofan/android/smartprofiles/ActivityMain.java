@@ -90,6 +90,7 @@ public class ActivityMain extends TabActivity {
 								Intent intent = new Intent(
 										Intent.ACTION_VIEW,
 										Uri.parse("market://details?id=com.intofan.android.smartprofiles"));
+										//Uri.parse("http://www.amazon.com/gp/mas/dl/android?p=com.intofan.android.smartprofiles"));
 								try {
 									startActivity(intent);
 								} catch (Exception e) {
