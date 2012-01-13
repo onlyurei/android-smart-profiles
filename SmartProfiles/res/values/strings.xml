@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">Smarter Profiles</string>
+	<string name="help_url">http://intofan.com/smarterprofiles/help.html</string>
 	<string name="smarter_profile_service_started">Smarter Profiles service started</string>
 	<string name="error_failed_to_start_smart_profile_service">Failed to start Smarter Profiles service</string>
 	<string name="smarter_profiles_service_is_running">Smarter Profiles service is running</string>
